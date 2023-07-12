@@ -44,7 +44,7 @@ function addLeadingZero(value) {
 }
 
 function getTime() {
-    timerId = setInterval(() => {
+    const timerId = setInterval(() => {
         const delta = selectedDate - Date.now();
         const dataSet = convertMs(delta);
         
